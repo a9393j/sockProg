@@ -24,3 +24,4 @@ In case of a UDP client connection, use
 ```
 ncat -vv localhost 8888 -u
 ```
+**Note#** As of now we aren't using any python library but as this code is server deployable so I have used virtualenv. It is possible that more functionalities may require some additoinal python libraries.
